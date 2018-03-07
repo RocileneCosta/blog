@@ -1,0 +1,9 @@
+
+
+cd ..
+hugo
+cd public/
+git add .
+git commit -m "terceiro commit"
+git push origin master
+

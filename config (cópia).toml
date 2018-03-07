@@ -1,0 +1,45 @@
+baseurl = "https://rocilenecosta.github.io/"
+languageCode = "en-us"
+title = "Tecnologia da Informação"
+theme = "hugo-geo"
+contentDir = "content"
+layoutDir = "layouts"
+publishDir = "public"
+buildDrafts = true
+canonifyURLs = false
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+	showglobe = "true"
+	
+	title = "Rocilene Costa"
+	subtitle = "Tecnologia da Informação"
+	
+	[[params.socialbuttons]]
+	faicon = "github"
+	url = "https://github.com/RocileneCosta"
+	[[params.socialbuttons]]
+	faicon = "twitter"
+	url = "https://twitter.com/rocilene_costa"
+	[[params.socialbuttons]]
+	faicon = "linkedin"
+	url = "https://www.linkedin.com/in/rocilene-costa/"
+	[[params.socialbuttons]]
+	faicon = "instagram"
+	url = "https://www.instagram.com/lennyscosta/"
+
+	
+	[[params.navlinks]]
+	name = "About"
+	url = "about"
+	
+	[[params.navlinks]]
+	name = "Blog"
+	url = ""
+	
+	[[params.navlinks]]
+	name = "Tutorials"
+	url = "tutorial/"

@@ -1,0 +1,169 @@
+
+contentDir = "content"
+layoutDir = "layouts"
+publishDir = "public"
+buildDrafts = false
+baseURL = "https://yoursite.example.com/"
+canonifyURLs = true
+title = "My Hugo Site"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  subtitle = "Hugo is Absurdly Fast!"
+  author = "John Doe"
+
+
+
+# nome do host (e caminho) para a raiz, p. http://spf13.com/
+baseURL = ""
+
+# inclui conteúdo marcado como rascunho
+buildDrafts = false
+
+# incluir conteúdo com publishdate no futuro
+buildFuture = false
+
+# inclui conteúdo já expirado
+buildExpired = false
+
+# habilite isso para tornar todos os URLs relativos relativos à raiz de conteúdo. 
+Observe que isso não afeta URLs absolutos.
+relativeURLs = false
+canonifyURLs = false
+
+# arquivo de configuração (o padrão é path / config.yaml | json | toml)
+config = "config.toml"
+contentDir = "content"
+dataDir = "dados"
+defaultLayout = "post"
+
+# Faltando traduções serão padrão para este idioma de conteúdo
+defaultContentLanguage = "en"
+
+# Renderiza o idioma de conteúdo padrão em subdir, p.ex. / en /. O diretório raiz / redirecionará para / en /
+defaultContentLanguageInSubdir = false
+disableLiveReload = false
+
+# Não crie arquivos RSS
+disableRSS = false
+
+# Não crie o arquivo do sitemap
+disableSitemap = false
+
+# Habilitar o recurso GitInfo
+enableGitInfo = false
+
+# Crie o arquivo robots.txt
+enableRobotsTXT = false
+
+# Não processe a página 404
+disable404 = false
+
+# Não injete tag meta do gerador na página inicial
+disableHugoGeneratorInject = false
+
+# Permite que você desabilite todos os tipos de página e não renderizará nada relacionado ao "tipo";
+
+# values ​​= "page", "home", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"
+disableKinds = []
+
+# Não faça o URL / caminho para minúsculas
+disablePathToLower = false
+
+# Ative o suporte emoticon emotivo para conteúdo da página; veja emoji-cheat-sheet.com
+enableEmoji = false
+
+# Mostrar um espaço reservado em vez do valor padrão ou uma seqüência vazia se faltar uma tradução
+enableMissingTranslationPlaceholders = false
+nota de rodapéAnchorPrefix = ""
+footnoteReturnLinkContents = ""
+
+# ID de rastreamento do Google Analytics
+googleAnalytics = ""
+
+# se for verdade, detecte automaticamente os idiomas chinês / japonês / coreano no conteúdo. (.Summary e .WordCount podem funcionar corretamente em CJKLanguage)
+hasCJKLanguage = false
+languageCode = ""
+
+# o comprimento do texto para mostrar em um .Summary
+summaryLength = 70
+layoutDir = "layouts"
+
+# Habilitar o registro
+log = false
+
+# Caminho do Arquivo de Log (se configurado, o log ativado automaticamente)
+logFile =
+
+# número máximo de itens no feed RSS
+rssLimit = 15
+
+# "toml", "yaml" ou "json"
+metaDataFormat = "toml"
+newContentEditor = ""
+
+# Não sincronize o modo de permissão dos arquivos
+noChmod = false
+
+# Não sincronize o tempo de modificação dos arquivos
+noTimes = falso
+
+# Paginação
+paginate = 10
+paginatePath = "page"
+
+# Veja "gerenciamento de conteúdo / permalinks"
+permalinks =
+
+# Pluralize títulos em listas usando inflexão
+pluralizeListTitles = true
+
+# Preserve caracteres especiais em nomes de taxonomia ("Gérard Depardieu" vs "Gerard Depardieu")
+preserveTaxonomyNames = false
+
+# caminho do sistema de arquivos para gravar arquivos para
+publishDir = "public"
+
+# permite adivinhação de sintaxe para cercas de código sem idioma especificado
+pygmentsCodeFencesGuessSyntax = false
+
+# códigos de cores para destaque derivado deste estilo
+pygmentsStyle = "monokai"
+
+# true: use pygments-css ou false: códigos de cor diretamente
+pygmentsUseClasses = false
+
+# veja "Menu Seção para Bloggers preguiçosos", / templates / menu-templates para mais informações
+SectionPagesMenu =
+
+# mapa de configuração do sitemap padrão
+sitemap =
+
+# caminho do sistema de arquivos para ler arquivos estáticos relativos de
+staticDir = "static"
+
+# exibir memória e tempo de diferentes etapas do programa
+stepAnalysis = false
+
+# tema a ser usado (localizado por padrão em / themes / THEMENAME /)
+themesDir = "themes"
+tema = ""
+title = ""
+
+# se verdadeiro, use /filename.html em vez de / filename /
+uglyURLs = false
+
+# saída detalhada
+verbose = false
+
+# registro detalhado
+verboseLog = false
+
+# assista o sistema de arquivos para mudanças e recrie conforme necessário
+assistir = verdadeiro
+[taxonomias]
+  categoria = "categorias"
+  tag = "tags"
